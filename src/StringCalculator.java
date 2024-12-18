@@ -4,6 +4,7 @@ public class StringCalculator {
             return 0;
         }
 
+        numbers = numbers.replace("\n", ",");
         String[] parts = numbers.split(",");
         int sum = 0;
         for (String part : parts) {
