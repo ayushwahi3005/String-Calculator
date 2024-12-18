@@ -14,4 +14,10 @@ public class StringCalculatorTest {
         StringCalculator calculator = new StringCalculator();
         assertEquals(1, calculator.add("1"));
     }
+
+    @Test
+    public void testTwoNumber() {
+        StringCalculator calculator = new StringCalculator();
+        assertEquals(4, calculator.add("1,3"));
+    }
 }
